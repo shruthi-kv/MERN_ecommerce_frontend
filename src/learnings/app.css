@@ -26,3 +26,8 @@
     bottom:22px;
     z-index:2
 }
+
+
+button:focus{
+    border: 2px solid red;
+}
