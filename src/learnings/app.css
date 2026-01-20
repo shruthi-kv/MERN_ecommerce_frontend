@@ -11,10 +11,23 @@
 }
 
 .relativeElement{
-    border:2px solid black;
     height:100px;
     width:100px;
-    background-color:blue;
+    background-color:pink;
     position:relative;
-    left:100px;
+    z-index:3
+}
+
+.secondDiv{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    position: relative;
+    bottom:22px;
+    z-index:2
+}
+
+
+button:focus{
+    border: 2px solid red;
 }
